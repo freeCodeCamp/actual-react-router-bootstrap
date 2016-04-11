@@ -1,36 +1,32 @@
 {
-  "name": "react-router-bootstrap",
-  "version": "0.20.1",
-  "description": "Integration between React Router and React-Bootstrap",
+  "name": "actual-react-router-bootstrap",
+  "version": "1.0.0",
+  "description": "Integration between React-Router and React-Bootstrap",
   "main": "./lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "rimraf lib && babel src --out-dir=lib && webpack && webpack -p && npm run bower-prepare",
+    "build": "rimraf lib && babel src --out-dir=lib && webpack && webpack -p",
     "test": "npm run lint && karma start --single-run",
     "tdd": "karma start",
     "visual-test": "open http://localhost:8080/ && webpack-dev-server --config webpack.visual.config.babel.js",
     "lint": "eslint *.babel.js src tests",
-    "bower-prepare": "babel-node scripts/bower-prepare.js",
     "release": "release"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-bootstrap/react-router-bootstrap.git"
+    "url": "https://github.com/FreeCodeCamp/actual-react-router-bootstrap.git"
   },
   "keywords": [
     "react",
     "react-router",
-    "react-bootstrap"
+    "react-bootstrap",
+    "rrtr"
   ],
-  "author": {
-    "name": "Matt Smith",
-    "email": "mtscout6@gmail.com"
-  },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/react-bootstrap/react-router-bootstrap/issues"
+    "url": "https://github.com/FreCodeCamp/actual-react-router-bootstrap/issues"
   },
-  "homepage": "https://github.com/react-bootstrap/react-router-bootstrap",
+  "homepage": "https://github.com/FreeCodeCamp/actual-react-router-bootstrap",
   "peerDependencies": {
     "react": ">=0.14.0",
     "react-router": ">=2.0.0"
@@ -83,13 +79,5 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "yargs": "^4.4.0"
-  },
-  "files": [
-    "README",
-    "CHANGELOG.md",
-    "lib"
-  ],
-  "release-script": {
-    "bowerRepo": "git@github.com:react-bootstrap/react-router-bootstrap-bower.git"
   }
 }
