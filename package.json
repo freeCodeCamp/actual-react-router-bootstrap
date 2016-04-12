@@ -22,6 +22,10 @@
     "react-bootstrap",
     "rrtr"
   ],
+  "author": {
+    "name": "Matt Smith",
+    "email": "mtscout6@gmail.com"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/FreCodeCamp/actual-react-router-bootstrap/issues"
