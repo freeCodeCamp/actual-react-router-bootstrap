@@ -28,7 +28,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/FreCodeCamp/actual-react-router-bootstrap/issues"
+    "url": "https://github.com/FreeCodeCamp/actual-react-router-bootstrap/issues"
   },
   "homepage": "https://github.com/FreeCodeCamp/actual-react-router-bootstrap",
   "peerDependencies": {
